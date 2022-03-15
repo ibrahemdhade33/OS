@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="649.0" prefWidth="792.0" style="-fx-background-color: #E9A6A6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.textarea">
+   <children>
+      <Label layoutX="274.0" layoutY="46.0" prefHeight="38.0" prefWidth="192.0" text="Memory View">
+         <font>
+            <Font name="Cambria Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Line endX="165.0" layoutX="101.0" layoutY="65.0" startX="-100.0" />
+      <Line endX="193.0" layoutX="599.0" layoutY="67.0" startX="-124.0" />
+      <TextArea fx:id="memview" layoutX="13.0" layoutY="125.0" prefHeight="307.0" prefWidth="762.0" />
+      <Label fx:id="tc" layoutX="396.0" layoutY="555.0" prefHeight="30.0" prefWidth="377.0">
+         <font>
+            <Font name="Cambria Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="tpf" layoutX="396.0" layoutY="505.0" prefHeight="30.0" prefWidth="377.0">
+         <font>
+            <Font name="Cambria Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="show" layoutX="51.0" layoutY="520.0" mnemonicParsing="false" onAction="#show" prefHeight="31.0" prefWidth="175.0" style="-fx-background-color: #3F3351; -fx-background-radius: 14px;" text="Show Memory View" textFill="#fffafa">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="hit" layoutX="394.0" layoutY="605.0" prefHeight="30.0" prefWidth="392.0">
+         <font>
+            <Font name="Cambria Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="miss" layoutX="396.0" layoutY="455.0" prefHeight="30.0" prefWidth="385.0">
+         <font>
+            <Font name="Cambria Bold Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

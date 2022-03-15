@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="644.0" prefWidth="747.0" style="-fx-background-color: #E9A6A6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Random_data">
+   <children>
+      <Label layoutX="129.0" layoutY="212.0" text="Number Of Procecces">
+         <font>
+            <Font name="Cambria Bold Italic" size="22.0" />
+         </font></Label>
+      <Label layoutX="104.0" layoutY="269.0" text="Size Of RAM in Frames">
+         <font>
+            <Font name="Cambria Bold Italic" size="22.0" />
+         </font></Label>
+      <Label layoutX="41.0" layoutY="335.0" text="Minimum Frames Per Proceces">
+         <font>
+            <Font name="Cambria Bold Italic" size="22.0" />
+         </font></Label>
+      <TextField fx:id="numberofproc" layoutX="429.0" layoutY="210.0" style="-fx-background-radius: 14px;" />
+      <TextField fx:id="framesinmem" layoutX="429.0" layoutY="268.0" style="-fx-background-radius: 14px;" />
+      <TextField fx:id="minimumframesperproc" layoutX="429.0" layoutY="334.0" style="-fx-background-radius: 14px;" />
+      <Label layoutX="145.0" layoutY="45.0" text="Enter The Requirments For Random Data">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Line endX="83.5" layoutX="53.0" layoutY="63.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="646.0" layoutY="63.0" startX="-52.5" />
+      <Button fx:id="ok" layoutX="456.0" layoutY="445.0" mnemonicParsing="false" onAction="#ok" prefHeight="44.0" prefWidth="120.0" style="-fx-background-color: #3F3351; -fx-background-radius: 14px;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="23.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
